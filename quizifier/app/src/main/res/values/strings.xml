@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">quizifier</string>
+    <string name="Regenerate">Regenerate</string>
+    <string name="grade">Grade</string>
+    <string name="save">Save</string>
+    <string name="toast_message_when_page_text_null">페이지 내용이 없습니다.</string>
+    <string name="toast_message_message_when_quiz_saved">퀴즈가 저장되었습니다.</string>
+    <string name="toast_message_when_no_option_selected">답을 선택해주세요.</string>
+    <string name="textview_message_while_loading">\" 퀴즈를 생성 중입니다 잠시만 기다려주세요!!! (최대 3분 걸립니다) \"</string>
+    <string name="toast_message_when_answer_right">정답입니다!</string>
+    <string name="toast_message_when_answer_wrong">오답입니다!</string>
+
+</resources>

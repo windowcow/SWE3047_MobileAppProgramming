@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/bordered_button.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#d3d3d3" /> <!-- 버튼이 눌렸을 때의 배경색 -->
+            <corners android:radius="5dp" /> <!-- 버튼 모서리 라운딩 -->
+            <stroke android:color="#FFD992" android:width="5dp" /> <!-- 테두리색과 두께 -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#ffffff" /> <!-- 버튼의 기본 배경색 -->
+            <corners android:radius="5dp" /> <!-- 버튼 모서리 라운딩 -->
+            <stroke android:color="@color/btn_border_color" android:width="5dp" /> <!-- 테두리색과 두께 -->
+        </shape>
+    </item>
+</selector>
